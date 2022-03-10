@@ -1,3 +1,4 @@
+//codigo a parte d sistema para gerar short url
 const generateCode = () => {
   let text = ''
   const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'

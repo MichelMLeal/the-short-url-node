@@ -9,7 +9,7 @@ module.exports.connParameters = async (parameters, url) => {
     url: url,
     headers: {
       'Content-Type': 'application/json',
-      Authorization: 'Bearer 86b893538ce9e93fcda8b5c4738df9c8a4e827b6'
+      Authorization: 'Bearer 86b893538ce9e93fcda8b5c4738df9c8a4e827b6' // codigo de autorização do bit.ly
     },
     data: data
   }
