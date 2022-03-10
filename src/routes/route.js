@@ -2,9 +2,11 @@ const express = require('express')
 const router = express.Router()
 const { createShortUrl, getOriginalUrl } = require('../controllers/shortUrlController')
 
+//rota de encode
 router.get('/encode', async (req, res) => {
   try {
     const data = req.body
+    console.log(typeof data)
     const result = await createShortUrl(data)
 
     return res.json(result)
@@ -13,6 +15,7 @@ router.get('/encode', async (req, res) => {
   }
 })
 
+//rota de decode
 router.get('/decode', async (req, res) => {
   try {
     const { short_url } = req.body

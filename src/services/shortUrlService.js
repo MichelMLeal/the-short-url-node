@@ -1,8 +1,6 @@
 //client do prisma para consultar os dados do banco
 const { PrismaClient } = require('@prisma/client')
 const prisma = new PrismaClient()
-//biblioteca para datas
-const moment = require('moment')
 
 //exporta um objeto com as funções do banco de dados prisma
 module.exports = {

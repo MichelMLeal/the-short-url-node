@@ -5,7 +5,8 @@
   "author": "MichelMLeal <54695445+MichelMLeal@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "test": "jest"
   },
   "dependencies": {
     "@prisma/client": "^3.10.0",
